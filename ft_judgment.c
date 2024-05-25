@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_judgment.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kyoshida <kyoshida@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yoshidakazushi <yoshidakazushi@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/11 13:06:55 by kyoshida          #+#    #+#             */
-/*   Updated: 2023/06/21 16:28:16 by kyoshida         ###   ########.fr       */
+/*   Updated: 2024/05/25 14:45:47 by yoshidakazu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,12 +111,10 @@ static int	ft_check(char ident, va_list args, t_flag *flag)
 
 int	ft_judgment(va_list args, const char *format)
 {
-	int		i;
 	int		count;
 	t_flag	*flag;
 	t_flag	flag_init;
 
-	i = 0;
 	count = 0;
 	while (*format != '\0')
 	{
